@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_22sp">12dp</dimen>
+
+    <!-- Dimensions -->
+    <dimen name="scale_8dp">8dp</dimen>
+    <dimen name="normal_padding">10.0dip</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="normalPadding">20dp</dimen>
+    <dimen name="headerMoreTextSize">18sp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="frutorial_title">15sp</dimen>
+    <dimen name="splash_width">150sp</dimen>
+    <dimen name="splash_height">20sp</dimen>
+    <dimen name="mardinbottom_logo">1sp</dimen>
+    <dimen name="field_height">45dp</dimen>
+    <dimen name="review_rating_width">250dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="layout_margin">15dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="tabLayoutHeight">48dp</dimen>
+    <dimen name="tabLayoutHeightTextImage">50dp</dimen>
+    <dimen name="martMargin">8dp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginViewsMargin">10dp</dimen>
+</resources>

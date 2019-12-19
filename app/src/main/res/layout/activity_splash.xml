@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundchat"
+    tools:context=".activities.Splash">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ui_splash_logo"
+            android:layout_width="@dimen/splash_width"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ui_spinner"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Location Tracker"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="@dimen/mardinbottom_logo"/>
+
+        <com.agrawalsuneet.dotsloader.loaders.TrailingCircularDotsLoader
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            app:trailingcircular_animDelay="200"
+            app:trailingcircular_animDuration="900"
+            app:trailingcircular_bigCircleRadius="10dp"
+            app:trailingcircular_dotsColor="#6c6969"
+            app:trailingcircular_dotsRadius="2dp"
+            app:trailingcircular_noOfTrailingDots="5" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
